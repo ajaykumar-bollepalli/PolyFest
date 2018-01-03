@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.excitedcoder.polyfest.DownloadFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Broucher"
+            android:layout_marginTop="60dp"
+            android:id="@+id/download_brocher"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Poster"
+            android:layout_below="@id/download_brocher"
+            android:id="@+id/download_poster"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download Indemnity Bond &amp; Bonafide Certificate format "
+        android:layout_below="@id/download_poster"
+        android:id="@+id/download_ib"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Download Invitation"
+            android:id="@+id/invite_button"
+            android:layout_below="@id/download_ib"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit our website for other downloads"
+            android:id="@+id/site_button"
+            android:layout_below="@id/invite_button"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+    </RelativeLayout>
+
+
+
+</FrameLayout>

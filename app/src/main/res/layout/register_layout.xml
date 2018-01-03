@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.excitedcoder.polyfest.MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:layout_marginBottom="54dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/card_nips"
+            android:elevation="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nips_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nips_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/nips_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nips_description"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_below="@id/nips_title"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_registration"
+                    android:layout_below="@id/nips_description"
+                    android:padding="16dp"
+                    android:id="@+id/button_nipsR"
+                   />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/card_glory"
+            android:id="@+id/card_claps"
+            android:elevation="6dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/claps_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/claps_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/claps_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/claps_description"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_below="@id/claps_title"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_registration"
+                    android:layout_below="@id/claps_description"
+                    android:padding="16dp"
+                    android:id="@+id/button_clapsR"
+                    />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/card_nips"
+            android:elevation="6dp"
+            android:id="@+id/card_glory">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/glory_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/glory_title"
+                    style="@style/TextAppearance.AppCompat.Headline"
+                    android:textSize="20sp"/>
+
+                <TextView
+                    android:id="@+id/glory_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/glory_description"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_below="@id/glory_title"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_registration"
+                    android:layout_below="@id/glory_description"
+                    android:padding="16dp"
+                    android:id="@+id/button_gloryR"
+
+                    />
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+
+
+</android.support.constraint.ConstraintLayout>

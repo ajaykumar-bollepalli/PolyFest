@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394462864431",
+    "firebase_url": "https://polyfest-excitedcoder.firebaseio.com",
+    "project_id": "polyfest-excitedcoder",
+    "storage_bucket": "polyfest-excitedcoder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394462864431:android:cb4338b5246af30d",
+        "android_client_info": {
+          "package_name": "com.excitedcoder.polyfest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394462864431-3ubhchgd96htacn8auehfp10k0ujgo43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.excitedcoder.polyfest",
+            "certificate_hash": "d722321688feb14d158155ed72855a08f86ab2ce"
+          }
+        },
+        {
+          "client_id": "394462864431-t1roe6bh0hcejl5mb8julpp1e8e4dm9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0wvq1hdTAMgEOQaMglvvZRlBoDfdIYPM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394462864431-t1roe6bh0hcejl5mb8julpp1e8e4dm9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

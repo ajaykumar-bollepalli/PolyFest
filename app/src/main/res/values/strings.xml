@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PolyFest</string>
+    <string name="splash_name">A.A.N.M. &amp; V.V.R.S.R. Polytechnic\n\nAANM &amp; VVRSR POLYFEST-2K18</string>
+    <string name="event_name">AANM &amp; VVRSR POLYFEST-2K18</string>
+    <string name="splash_description">Made with Passion @\nDepartment of Computer Engineering\nA.A.N.M. &amp; V.V.R.S.R. Polytechnic, Gudlavalleru</string>
+    <string name="title_home">Home</string>
+    <string name="home_title">A.A.N.M. &amp; V.V.R.S.R. Polytechnic</string>
+    <string name="home_description">NATIONAL LEVEL INTER POLYTECHNIC TECHNICAL, LITERARY, CULTURAL, SPORTS &amp; GAMES MEET
+\n\nIn memory of the key founder</string>
+    <string name="founder_name">Sri Adsumilli Aswardha Narayana Murthy</string>
+    <string name="dates">On 29th &amp; 30th January 2018</string>
+    <string name="title_registration">Register</string>
+    <string name="title_notifications">Updates</string>
+    <string name="notifications_placeHolder">You will get notifications as events start to roll.</string>
+    <string name="update_reminder">Please make sure you have the latest version of PolyFest App.</string>
+    <string name="nips_title">NIPS-2K18</string>
+    <string name="nips_description">National Level Inter Polytechnic Sports and Games</string>
+    <string name="claps_description">Cultural and Literary Arena for Polytechnics</string>
+    <string name="glory_description">National Level Technical Paper Presentation, Technical Exibition &amp; Technical Quiz Contest</string>
+    <string name="claps_title">CLAP-2K18</string>
+    <string name="glory_title">GLORY-2K18</string>
+    <string name="register_intimation">Click on REGISTER for event registration.</string>
+    <string name="caution">App Under development. Will be updated frequently.</string>
+    <string name="dnld_indemty">Download indempty bond</string>
+    <string name="title_events">Events</string>
+    <string name="title_contact">Contact</string>
+    <string name="contact_clap">CLAP Coordinator</string>
+    <string name="contact_glory_ppt">GLORY Coordinator</string>
+    <string name="contact_president">President POLYFEST-2K18</string>
+    <string name="president_title">PRINCIPAL</string>
+    <string name="president_mobile">Sri N.S.S.V. Ramanjaneyulu\n9912342030</string>
+    <string name="contact_convener">Convener</string>
+    <string name="convener_mobile">Sri N.V.K. Prasad\n9440730562</string>
+    <string name="contact_co_convener">Co-Convener</string>
+    <string name="co_convener_mobile">Sri. M. Vinay\n9182129433</string>
+    <string name="contact_nips">NIPS Coordinator</string>
+    <string name="clap_contact">Sri. S. Phani Kumar\n9440041062</string>
+    <string name="glory_contact_ppt">Sri G.V.V. Satyanarayana\n9441418252</string>
+    <string name="glory_contact_exibit">Sri P. Rama Krishna\n9963140215</string>
+    <string name="nips_contact">Sri. V. Srinivasa Rao\n9912639494</string>
+    <string name="ppt">Paper Presentation &amp; Quiz</string>
+    <string name="organizer_title">Organizing Commitee</string>
+    <string name="organizeer_members">Sri. N. Rajasekhar\nSri. B M N Kiran\nSri. A. Satish\nSri. P. Ganesh Kumar</string>
+    <string name="trans_title">Transportation &amp; Accommodation</string>
+    <string name="trans_mobile">Sri. M N V Krishna Prasad\n8919000052</string>
+    <string name="exibit">Technical Exhibition</string>
+    <string name="broucher_download"> <a href="http://aanm-vvrsrpolytechnic.ac.in/images/polytech/BROUCHURE12.pdf">Download Brochure</a></string>
+
+
+
+</resources>

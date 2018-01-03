@@ -1,0 +1,92 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.excitedcoder.polyfest.EventFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+    <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/events_nips"
+         android:layout_marginTop="55dp"
+         android:text="View NIPS Events"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/events_glory"
+         android:layout_below="@id/events_nips"
+         android:text="View GLORY Events"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/events_clap"
+         android:layout_below="@id/events_glory"
+         android:text="View CLAP Events"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Referees &amp; Judges List"
+            android:layout_below="@id/events_clap"
+            android:id="@+id/judges"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Visit Guest Gallery"
+         android:layout_below="@id/judges"
+         android:id="@+id/guest_gallery"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Give Feedback"
+         android:layout_below="@id/guest_gallery"
+         android:id="@+id/feedback"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Winners List"
+         android:layout_below="@id/feedback"
+         android:id="@+id/winners_list"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Help"
+         android:layout_below="@id/winners_list"
+         android:id="@+id/help"
+         android:layout_marginLeft="8dp"
+         android:layout_marginRight="8dp"/>
+
+
+ </RelativeLayout>
+    </ScrollView>
+
+
+</FrameLayout>
